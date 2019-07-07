@@ -28,8 +28,6 @@ class App < Sinatra::Base
 
 end
 
-
-# From Valerie Moore to Everyone:  11:27 AM
 # class App < Sinatra::Base
 
 #     set :views, Proc.new { File.join(root, "../views/") }
@@ -47,4 +45,3 @@ end
 #       erb :team
 #     end
 # end
-# here
