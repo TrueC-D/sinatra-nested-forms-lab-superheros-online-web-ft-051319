@@ -22,10 +22,11 @@ class App < Sinatra::Base
       @member3_power = params[:team][:member][2][:power]
       @member3_bio = params[:team][:member][2][:bio]
       
+       erb :team
       
     end
     
-    erb :team
+   
     
   end
 
